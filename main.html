@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="icon" href="/hplogo.png">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<link rel="icon" href="/hplogo.png" />
+		<link rel="stylesheet" href="/style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hoang Pham</title>
+	</head>
+	<body>
+		<nav class="nav navbar">
+			<img src="./hplogo.png" alt="logo" class="nav__logo" />
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<section id="home" class="home">
+			<div class="home__text">
+				<span class="lineOne">Hello, I am</span>
+				<span class="lineTwo">Hoang Pham</span>
+				<span class="lineThree">I'm into web development</span>
+			</div>
+			<div class="home__img">
+				<img src="./bgyes.jpg" alt="self" />
+			</div>
+		</section>
+		<section id="portfolio" class="portfolio">
+			<span class="title">Portfolio</span>
+			<div class="portfolioOne">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/ryExrxSlGg4"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="portfolioTwo">
+				<iframe
+					width="560"
+					height="405"
+					src="https://hanogi610.github.io/Calculator/"
+					title="JS Calculator"
+				></iframe>
+			</div>
+			<div class="portfolioThree">
+				<iframe
+					width="560"
+					height="500"
+					src="https://hanogi610.github.io/Drum-Machine/"
+					title="Drum Machine"
+				></iframe>
+			</div>
+		</section>
+		<section id="contact" class="contact">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/" target="_blank"
+						><i class="bi bi-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://github.com/Hanogi610" target="_blank"
+						><i class="bi bi-github"></i
+					></a>
+				</li>
+				<li>
+					<a
+						href="https://www.linkedin.com/in/ho%C3%A0ng-ph%E1%BA%A1m-63b254223/"
+						target="_blank"
+						><i class="bi bi-linkedin"></i
+					></a>
+				</li>
+			</ul>
+		</section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-short"></i></button> 
+        <script src="./main.js"></script>
+	</body>
 </html>
